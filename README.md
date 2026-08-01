@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/semantic-release-config/v1/logos/semantic-release-config.svg" alt="semantic-release-config logo" width="128" />
+  <img src="./semantic-release-config.svg" alt="semantic-release-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/semantic-release-config</h1>
