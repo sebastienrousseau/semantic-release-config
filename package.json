@@ -1,0 +1,51 @@
+{
+  "name": "@sebastienrousseau/semantic-release-config",
+  "version": "1.0.0",
+  "description": "Shareable semantic-release configuration rules for automated releases",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/semantic-release-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/semantic-release-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/semantic-release-config/issues"
+  },
+  "keywords": [
+    "semantic-release",
+    "release",
+    "automation",
+    "changelog",
+    "npm-publish"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "semantic-release": ">=23.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.0"
+  }
+}
