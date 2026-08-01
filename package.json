@@ -34,7 +34,8 @@
     "index.mjs",
     "index.cjs",
     "index.d.ts",
-    "semantic-release-config.svg"
+    "semantic-release-config.svg",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
