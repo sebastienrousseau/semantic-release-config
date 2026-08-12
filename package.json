@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/semantic-release-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shareable semantic-release configuration rules for automated releases",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
