@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "Shareable semantic-release configuration rules for automated releases",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/sebastienrousseau/semantic-release-config#readme",
   "repository": {
     "type": "git",
