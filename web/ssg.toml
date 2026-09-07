@@ -1,0 +1,16 @@
+site_name = "semantic-release-config"
+site_title = "@sebastienrousseau/semantic-release-config — Shareable semantic-release configuration rules for automated releases"
+site_description = "Shareable semantic-release configuration rules for automated releases"
+base_url = "https://config.sebastienrousseau.com/semantic-release-config"
+language = "en-GB"
+
+content_dir = "web/content"
+template_dir = "web/_layouts"
+output_dir = "public"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true
