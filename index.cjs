@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * Modern Semantic Release CommonJS Configuration
  */
@@ -6,7 +9,7 @@ module.exports = {
     "main",
     "master",
     { name: "beta", prerelease: true },
-    { name: "alpha", prerelease: true }
+    { name: "alpha", prerelease: true },
   ],
   plugins: [
     "@semantic-release/commit-analyzer",
@@ -18,8 +21,9 @@ module.exports = {
       "@semantic-release/git",
       {
         assets: ["CHANGELOG.md", "package.json"],
-        message: "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
-    ]
-  ]
+        message:
+          "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+      },
+    ],
+  ],
 };

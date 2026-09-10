@@ -5,6 +5,7 @@ Comprehensive schema, property definitions, and exported options reference for `
 ---
 
 ## Description
+
 Shareable semantic-release presets automating versioning, changelog generation, and npm publishing.
 
 ---
@@ -22,21 +23,25 @@ Shareable semantic-release presets automating versioning, changelog generation, 
 ## Feature & Property Reference
 
 ### 1. Branch Workflow
+
 - **Description**: Supports release branches (main, master) and prerelease channels (beta, alpha)
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 2. Automated Commit Analysis
+
 - **Description**: Analyzes conventional commits for SemVer calculation
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 3. Changelog Generation
+
 - **Description**: Auto-generates and commits updated CHANGELOG.md
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 4. Multi-Platform Publishing
+
 - **Description**: Coordinates simultaneous npm registry and GitHub release creation
 - **Scope**: Production & Development
 - **Status**: Stable & Active
