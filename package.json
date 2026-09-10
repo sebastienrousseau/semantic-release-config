@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/semantic-release-config",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Shareable semantic-release configuration rules for automated releases",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
@@ -42,20 +42,35 @@
     "access": "public"
   },
   "scripts": {
-    "test": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
-    "test:coverage": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-coverage-lines=98 --test-coverage-branches=98 --test-coverage-functions=98 tests/unit.test.js tests/integration.test.js tests/bench.test.js",
+    "test": "node --test tests/conformance.test.js tests/bench.test.js",
     "bench": "node benches/bench_load.js",
     "examples": "node examples/basic.js && node examples/advanced.js && node examples/features.js && node examples/esm.mjs",
-    "docs:build": "bash scripts/build-docs.sh"
+    "docs:build": "bash scripts/build-docs.sh",
+    "test:conformance": "node --test tests/conformance.test.js",
+    "fuzz": "node fuzz/fuzz_config.js"
   },
   "peerDependencies": {
     "semantic-release": ">=23.0.0"
   },
   "devDependencies": {
+    "@sebastienrousseau/config-kit": "^0.0.7",
     "semantic-release": "^25.0.9"
   },
   "overrides": {
     "brace-expansion@>=4.0.0 <5.0.9": ">=5.0.9 <6.0.0",
     "ip-address@<=10.3.0": ">=10.3.1 <11.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "configKit": {
+    "shape": "object",
+    "presets": [],
+    "validate": "semantic-release"
   }
 }
