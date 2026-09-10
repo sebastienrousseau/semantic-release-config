@@ -21,14 +21,18 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Branch Workflow
+
 Supports release branches (main, master) and prerelease channels (beta, alpha). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Automated Commit Analysis
+
 Analyzes conventional commits for SemVer calculation. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Changelog Generation
+
 Auto-generates and commits updated CHANGELOG.md. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Multi-Platform Publishing
+
 Coordinates simultaneous npm registry and GitHub release creation. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
