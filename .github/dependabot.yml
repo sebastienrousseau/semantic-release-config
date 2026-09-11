@@ -8,6 +8,17 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10
+    ignore:
+      # These two are runtime dependencies, and their 7.x / 11.x lines require
+      # Node ^22.22.2 || >=24.15. This package promises Node >= 20 in engines,
+      # in the README and in docs/packaging.md, so taking a major here would
+      # break consumers on Node 20 and 21 — silently, since npm only warns on
+      # an engine mismatch. Lift these entries when the family raises its Node
+      # floor, which is a deliberate breaking change rather than a bump.
+      - dependency-name: "@semantic-release/changelog"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@semantic-release/git"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
