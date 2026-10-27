@@ -10,6 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 
 - `package-lock.json` moves handlebars to 4.7.10 and undici to 6.29.1 and 7.30.1. Four advisories remain in the npm CLI that `@semantic-release/npm` bundles (brace-expansion, http-cache-semantics, ip-address, undici 6.28.0); every npm 11 release still bundles them, and npm 12 is outside `@semantic-release/npm`'s `^11.6.2` range.
+- `.github/security-exceptions.json` records those advisories (15 GHSA
+  identifiers across brace-expansion, http-cache-semantics, ip-address,
+  postcss-selector-parser and undici, all inside `node_modules/npm/`),
+  accepted on 2026-10-27 with review due 2026-11-26 and expiry
+  2026-12-26. The Security Analysis workflow moves to the config commit
+  that reads the file, so the audit gate passes while each exception
+  is current and fails once one expires or stops matching.
 
 ## [0.0.7] - 2026-09-10
 
