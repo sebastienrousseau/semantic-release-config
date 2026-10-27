@@ -1,0 +1,139 @@
+{
+  "exceptions": [
+    {
+      "advisory": "GHSA-6j4f-fj2g-mc7p",
+      "package": "brace-expansion",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-q2hr-2g5m-vwhr",
+      "package": "brace-expansion",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-qhr7-859c-m2p7",
+      "package": "brace-expansion",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-ch52-4w7c-c8xp",
+      "package": "http-cache-semantics",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-2vr4-cq9g-pvrc",
+      "package": "ip-address",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-h3mg-xc3c-68pw",
+      "package": "ip-address",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-j6r3-76f7-8jcv",
+      "package": "ip-address",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-rpw4-54j3-4h4q",
+      "package": "ip-address",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-rxp7-6hxx-x8q5",
+      "package": "ip-address",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-rj75-hqrm-r3gf",
+      "package": "postcss-selector-parser",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-3wwx-pv8p-q78v",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-4qv8-2p9j-2685",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-r53p-7pc4-xj5r",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-rfgv-xxqx-mfg5",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-xjj6-f33q-929c",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-10-27",
+      "review_due": "2026-11-26",
+      "expires": "2026-12-26"
+    }
+  ]
+}
