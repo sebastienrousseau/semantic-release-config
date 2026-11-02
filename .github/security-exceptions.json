@@ -28,13 +28,13 @@
       "expires": "2026-12-26"
     },
     {
-      "advisory": "GHSA-ch52-4w7c-c8xp",
-      "package": "http-cache-semantics",
-      "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
+      "advisory": "GHSA-3g3m-2fjr-6pw4",
+      "package": "glob",
+      "reason": "bundled inside @semantic-release/npm's npm 11; even npm 12 bundles glob 13, fixed in 14; dev-only release tooling",
       "owner": "sebastienrousseau",
-      "accepted": "2026-10-27",
-      "review_due": "2026-11-26",
-      "expires": "2026-12-26"
+      "accepted": "2026-11-02",
+      "review_due": "2026-12-02",
+      "expires": "2027-01-01"
     },
     {
       "advisory": "GHSA-2vr4-cq9g-pvrc",
@@ -82,6 +82,15 @@
       "expires": "2026-12-26"
     },
     {
+      "advisory": "GHSA-g3hv-75wg-m249",
+      "package": "minimatch",
+      "reason": "bundled inside @semantic-release/npm's npm 11; even npm 12 bundles minimatch 10, fixed in 11; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-11-02",
+      "review_due": "2026-12-02",
+      "expires": "2027-01-01"
+    },
+    {
       "advisory": "GHSA-rj75-hqrm-r3gf",
       "package": "postcss-selector-parser",
       "reason": "bundled inside @semantic-release/npm's npm 11; no npm 11 bundles the fix; dev-only release tooling",
@@ -89,6 +98,15 @@
       "accepted": "2026-10-27",
       "review_due": "2026-11-26",
       "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-2m5v-pch6-74hx",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11 (node-gyp, undici 6.28.0); no npm 11 bundles 6.29.1; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-11-02",
+      "review_due": "2026-12-02",
+      "expires": "2027-01-01"
     },
     {
       "advisory": "GHSA-3wwx-pv8p-q78v",
@@ -107,6 +125,24 @@
       "accepted": "2026-10-27",
       "review_due": "2026-11-26",
       "expires": "2026-12-26"
+    },
+    {
+      "advisory": "GHSA-9fm3-97px-rjf6",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11 (node-gyp, undici 6.28.0); no npm 11 bundles 6.29.1; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-11-02",
+      "review_due": "2026-12-02",
+      "expires": "2027-01-01"
+    },
+    {
+      "advisory": "GHSA-qrxm-fqhp-jwvm",
+      "package": "undici",
+      "reason": "bundled inside @semantic-release/npm's npm 11 (node-gyp, undici 6.28.0); no npm 11 bundles 6.29.1; dev-only release tooling",
+      "owner": "sebastienrousseau",
+      "accepted": "2026-11-02",
+      "review_due": "2026-12-02",
+      "expires": "2027-01-01"
     },
     {
       "advisory": "GHSA-r53p-7pc4-xj5r",
