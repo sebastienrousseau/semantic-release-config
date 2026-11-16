@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.9] - 2026-11-16
+
+### Changed
+
+- Synchronize version to 0.0.9 across the config family and merge dependency updates.
+
 ### Security
 
 - `package-lock.json` moves handlebars to 4.7.10 and undici to 6.29.1 and 7.30.1. Four advisories remain in the npm CLI that `@semantic-release/npm` bundles (brace-expansion, http-cache-semantics, ip-address, undici 6.28.0); every npm 11 release still bundles them, and npm 12 is outside `@semantic-release/npm`'s `^11.6.2` range.
