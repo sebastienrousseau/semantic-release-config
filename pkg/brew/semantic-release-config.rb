@@ -6,7 +6,7 @@
 class SemanticReleaseConfig < Formula
   desc "Shareable semantic-release configuration rules for automated releases"
   homepage "https://github.com/sebastienrousseau/semantic-release-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/semantic-release-config/-/semantic-release-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/semantic-release-config/-/semantic-release-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
